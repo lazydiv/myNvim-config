@@ -63,9 +63,13 @@ return {
 		"folke/tokyonight.nvim",
 		lazy = false,
 		priority = 1000,
-		opts = {},
+		opts = {
+			transparent = true,
+		},
 		config = function()
 			vim.cmd.colorscheme("tokyonight-night")
+			--  make the background transparent but blush
+			-- vim.api.nvim_set_hl(0, "Normal", { bg = "" })
 			-- local transparent = true,
 		end,
 	},

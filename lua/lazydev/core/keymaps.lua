@@ -58,7 +58,7 @@ vim.keymap.set("n", "<A-o>", "<C-i>")
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
--- terminal shit
+-- terminal shct
 -- vim.keymap.set("t", "<Esc>", "<C-\\><C-N>")
 vim.keymap.set("t", "<Esc>", "<C-\\><C-N>")
 vim.keymap.set("t", "<tab>", "<C-\\><C-N><cmd>tabn<CR>")
